@@ -20,7 +20,7 @@ def test_root_endpoint():
 def test_admin_login():
     response = client.post("/api/auth/login", json={
         "phone_number": "0784772228",
-        "password": "Enock@KoralinK"
+        "password": "Enock@Koralink"
     })
     assert response.status_code == 200
     data = response.json()
@@ -52,7 +52,7 @@ def test_full_financial_flow():
     # 1. Admin login
     admin_res = client.post("/api/auth/login", json={
         "phone_number": "0784772228",
-        "password": "Enock@KoralinK"
+        "password": "Enock@Koralink"
     })
     assert admin_res.status_code == 200, f"Admin login failed: {admin_res.json()}"
     admin_token = admin_res.json()["access_token"]

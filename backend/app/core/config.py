@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     # Default Admin Credentials
     ADMIN_USERNAME: str = os.getenv("ADMIN_USERNAME", "ENOCK IRADUKUNDA")
     ADMIN_PHONE: str = os.getenv("ADMIN_PHONE", "0784772228")
-    ADMIN_PASSWORD: str = os.getenv("ADMIN_PASSWORD", "Enock@koralinK")
+    ADMIN_PASSWORD: str = os.getenv("ADMIN_PASSWORD", "Enock@Koralink")
     
     # MTN MoMo Configuration
     MOMO_USSD_CODE: str = "*182*8*1*412512#"

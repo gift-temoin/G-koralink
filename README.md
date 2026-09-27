@@ -109,7 +109,7 @@ npm run dev
 
 | Urwego (Role) | Nimero ya Telefoni | Ijambobanga | Amazina |
 |---|---|---|---|
-| **ADMIN** | `0788123456` | `Enock@Koralink2026` | ENOCK IRADUKUNDA |
+| **ADMIN** | `0784772228` | `Enock@Koralink` | ENOCK IRADUKUNDA |
 | **UMUKORESHA** | `0781234567` | `User123456` | Jean Claude MUGISHA |
 | **UMUKORESHA** | `0789876543` | `User123456` | Aline UWIMANA |
 
