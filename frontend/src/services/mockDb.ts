@@ -75,9 +75,9 @@ export function seedDatabase() {
   // Admin user
   const admin: User & { password_hash: string } = {
     id: 1,
-    amazina_ya_mbere: 'Gift',
-    izina_rya_kabiri: 'Temoin',
-    full_name: 'Gift Temoin',
+    amazina_ya_mbere: 'Enock',
+    izina_rya_kabiri: 'Irankunda',
+    full_name: 'Enock Irankunda',
     phone_number: '0784772228',
     location: 'Kigali, Rwanda',
     role: 'ADMIN',
