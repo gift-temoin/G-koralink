@@ -169,7 +169,7 @@ export const UserLayout: React.FC = () => {
             <span>G KORALINK &copy; 2026 - Ubuyobozi: <strong className="text-slate-800 font-mono">+250 784 772 228</strong></span>
           </div>
           <div className="text-right text-[11px] font-mono text-slate-400">
-            Developed by <span className="font-bold text-slate-600">Gift Temoin</span>
+            Developed by <span className="font-bold text-slate-600">Enock Irankunda</span>
           </div>
         </div>
       </footer>
