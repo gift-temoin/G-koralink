@@ -199,7 +199,7 @@ export const LandingPage: React.FC = () => {
           </div>
 
           <div className="text-right text-[11px] text-slate-500 font-mono">
-            Developed by <span className="font-bold text-slate-400">Enock Irankunda</span>
+            Developed by <span className="font-bold text-slate-400">Gift Temoin</span>
           </div>
         </div>
       </footer>

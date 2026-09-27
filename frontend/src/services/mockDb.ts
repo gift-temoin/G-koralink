@@ -70,7 +70,7 @@ const KEYS = {
 // ─── Seed Data ────────────────────────────────────────────────────────────────
 
 export function seedDatabase() {
-  if (localStorage.getItem(KEYS.seeded)) return;
+  if (localStorage.getItem(KEYS.seeded) === '2') return;
 
   // Admin user
   const admin: User & { password_hash: string } = {
@@ -225,7 +225,7 @@ export function seedDatabase() {
   save(KEYS.profits, profits);
   save(KEYS.notifications, notifications);
   save(KEYS.audit, []);
-  localStorage.setItem(KEYS.seeded, '1');
+  localStorage.setItem(KEYS.seeded, '2');
 }
 
 // ─── DB Access Helpers ────────────────────────────────────────────────────────
