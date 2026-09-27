@@ -100,8 +100,8 @@ export const AdminIbibina: React.FC = () => {
 
   const handleToggleActive = async (group: IkibinaGroup) => {
     try {
-      const res = await api.delete(`/admin/ikibina/${group.id}`);
-      showToast(res.data.message, "success");
+      await api.post(`/admin/ikibina/${group.id}/toggle`);
+      showToast(group.is_active ? "Ikibina kihagaritswe." : "Ikibina cyakozwe.", "success");
       fetchGroups();
     } catch (err: any) {
       showToast(err.message || "Habaye ikibazo.", "error");
